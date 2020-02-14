@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         
         // Load the "Box" scene from the "Experience" Reality File
         let boxAnchor = try! Experience.loadBox()
+
+        set(text: "Score: 10", for: boxAnchor.scoreLabel)
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)

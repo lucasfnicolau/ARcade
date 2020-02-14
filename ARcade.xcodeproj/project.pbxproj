@@ -14,6 +14,7 @@
 		B678A88423F5CA6E0019C038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B678A88323F5CA6E0019C038 /* Assets.xcassets */; };
 		B678A88723F5CA6E0019C038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678A88523F5CA6E0019C038 /* LaunchScreen.storyboard */; };
 		B6C5145E23F5E126009D142C /* Arcade.obj in Resources */ = {isa = PBXBuildFile; fileRef = B6C5145D23F5E126009D142C /* Arcade.obj */; };
+		B6C5146123F72904009D142C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5146023F72904009D142C /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B678A88623F5CA6E0019C038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B678A88823F5CA6E0019C038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C5145D23F5E126009D142C /* Arcade.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arcade.obj; sourceTree = "<group>"; };
+		B6C5146023F72904009D142C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B678A87923F5CA6A0019C038 /* ARcade */ = {
 			isa = PBXGroup;
 			children = (
+				B6C5145F23F728E7009D142C /* Helpers */,
 				B678A87A23F5CA6A0019C038 /* AppDelegate.swift */,
 				B678A87C23F5CA6A0019C038 /* ViewController.swift */,
 				B678A87E23F5CA6A0019C038 /* Experience.rcproject */,
@@ -68,6 +71,14 @@
 				B678A88823F5CA6E0019C038 /* Info.plist */,
 			);
 			path = ARcade;
+			sourceTree = "<group>";
+		};
+		B6C5145F23F728E7009D142C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B6C5146023F72904009D142C /* Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				B678A87D23F5CA6A0019C038 /* ViewController.swift in Sources */,
 				B678A87B23F5CA6A0019C038 /* AppDelegate.swift in Sources */,
 				B678A87F23F5CA6A0019C038 /* Experience.rcproject in Sources */,
+				B6C5146123F72904009D142C /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
