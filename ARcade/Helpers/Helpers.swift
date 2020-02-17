@@ -16,9 +16,11 @@ func set(text: String,
     let textEntity = entity.children[0].children[0]
     var textModelComponent: ModelComponent = (textEntity.components[ModelComponent])!
 
+    guard let font = UIFont(name: Font.pressStart.rawValue, size: 0.25) else { return }
+
     textModelComponent.mesh = .generateText(text,
                                             extrusionDepth: extrusionDepth,
-                                            font: .systemFont(ofSize: 0.25),
+                                            font: font,
                                             containerFrame: CGRect.zero,
                                             alignment: .center,
                                             lineBreakMode: .byCharWrapping)

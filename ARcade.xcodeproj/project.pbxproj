@@ -13,8 +13,10 @@
 		B678A88223F5CA6A0019C038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678A88023F5CA6A0019C038 /* Main.storyboard */; };
 		B678A88423F5CA6E0019C038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B678A88323F5CA6E0019C038 /* Assets.xcassets */; };
 		B678A88723F5CA6E0019C038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678A88523F5CA6E0019C038 /* LaunchScreen.storyboard */; };
-		B6C5145E23F5E126009D142C /* Arcade.obj in Resources */ = {isa = PBXBuildFile; fileRef = B6C5145D23F5E126009D142C /* Arcade.obj */; };
 		B6C5146123F72904009D142C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5146023F72904009D142C /* Helpers.swift */; };
+		B6C5146323F72ABC009D142C /* slkscre.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C5146223F72ABC009D142C /* slkscre.ttf */; };
+		B6C5146523F72B1E009D142C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5146423F72B1E009D142C /* Enums.swift */; };
+		B6C5146823F73145009D142C /* PressStart2P-vaV7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C5146723F73145009D142C /* PressStart2P-vaV7.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,10 @@
 		B678A88323F5CA6E0019C038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B678A88623F5CA6E0019C038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B678A88823F5CA6E0019C038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6C5145D23F5E126009D142C /* Arcade.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arcade.obj; sourceTree = "<group>"; };
 		B6C5146023F72904009D142C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B6C5146223F72ABC009D142C /* slkscre.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = slkscre.ttf; sourceTree = "<group>"; };
+		B6C5146423F72B1E009D142C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B6C5146723F73145009D142C /* PressStart2P-vaV7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-vaV7.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,12 @@
 				B678A87A23F5CA6A0019C038 /* AppDelegate.swift */,
 				B678A87C23F5CA6A0019C038 /* ViewController.swift */,
 				B678A87E23F5CA6A0019C038 /* Experience.rcproject */,
-				B6C5145D23F5E126009D142C /* Arcade.obj */,
 				B678A88023F5CA6A0019C038 /* Main.storyboard */,
 				B678A88323F5CA6E0019C038 /* Assets.xcassets */,
 				B678A88523F5CA6E0019C038 /* LaunchScreen.storyboard */,
 				B678A88823F5CA6E0019C038 /* Info.plist */,
+				B6C5146223F72ABC009D142C /* slkscre.ttf */,
+				B6C5146723F73145009D142C /* PressStart2P-vaV7.ttf */,
 			);
 			path = ARcade;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C5146023F72904009D142C /* Helpers.swift */,
+				B6C5146423F72B1E009D142C /* Enums.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -141,7 +147,8 @@
 				B678A88723F5CA6E0019C038 /* LaunchScreen.storyboard in Resources */,
 				B678A88423F5CA6E0019C038 /* Assets.xcassets in Resources */,
 				B678A88223F5CA6A0019C038 /* Main.storyboard in Resources */,
-				B6C5145E23F5E126009D142C /* Arcade.obj in Resources */,
+				B6C5146323F72ABC009D142C /* slkscre.ttf in Resources */,
+				B6C5146823F73145009D142C /* PressStart2P-vaV7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +161,7 @@
 			files = (
 				B678A87D23F5CA6A0019C038 /* ViewController.swift in Sources */,
 				B678A87B23F5CA6A0019C038 /* AppDelegate.swift in Sources */,
+				B6C5146523F72B1E009D142C /* Enums.swift in Sources */,
 				B678A87F23F5CA6A0019C038 /* Experience.rcproject in Sources */,
 				B6C5146123F72904009D142C /* Helpers.swift in Sources */,
 			);
@@ -231,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -285,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
