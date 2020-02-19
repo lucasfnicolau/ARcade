@@ -13,4 +13,5 @@ enum Font: String {
 
 enum Anchor: String {
     case placingObject
+    case camera
 }

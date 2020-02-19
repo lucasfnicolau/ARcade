@@ -23,5 +23,45 @@
     "libraryIdentifier" : "3cf31bd693b79e480c549637c281945f",
     "format" : "model",
     "displayName" : "Joystick.usdz"
+  },
+  {
+    "libraryIdentifier" : "b92e1f28122f9cef0792a880cff539aa",
+    "format" : "model",
+    "displayName" : "BlueButtonBase.usdz"
+  },
+  {
+    "libraryIdentifier" : "e0ade9368fa77759074b6677c263cf00",
+    "format" : "model",
+    "displayName" : "BlueButton.usdz"
+  },
+  {
+    "libraryIdentifier" : "83eb08380ba034f1f0f968b0507aa099",
+    "format" : "model",
+    "displayName" : "GreenButton.usdz"
+  },
+  {
+    "libraryIdentifier" : "ea1d5c42e75e6cdbf0a7428f7261e5d9",
+    "format" : "model",
+    "displayName" : "GreenButtonBase.usdz"
+  },
+  {
+    "libraryIdentifier" : "1cad72e0c95e773b6b4aef1a1d4aebae",
+    "format" : "model",
+    "displayName" : "BlueButtonBase.usdz"
+  },
+  {
+    "libraryIdentifier" : "b1c5a0a3bcb666d006bbe678c3ffde4d",
+    "format" : "model",
+    "displayName" : "GreenButtonBase.usdz"
+  },
+  {
+    "libraryIdentifier" : "c64b0b1d1ada1b8d5cda2d685fa876e7",
+    "format" : "model",
+    "displayName" : "alien1.usdz"
+  },
+  {
+    "libraryIdentifier" : "27dd37279f863560bcc6304e38d47d80",
+    "format" : "model",
+    "displayName" : "alien2.usdz"
   }
 ]

@@ -16,6 +16,9 @@ class AlienXUSViewController: UIViewController, ARSessionDelegate {
     var configuration: ARWorldTrackingConfiguration?
     var anyCancellables: [AnyCancellable] = []
     let levelAnchor = try! Experience.loadLevel0()
+    var session: ARSession{
+        return arView.session
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +52,9 @@ class AlienXUSViewController: UIViewController, ARSessionDelegate {
             //            anchorEntity.addChild(bulletClone)
             //            arView.scene.anchors.append(anchorEntity)
 
+            let cameraAnchor = ARAnchor(name: Anchor.camera.rawValue, transform: session.currentFrame!.camera.transform)
+            session.add(anchor: cameraAnchor)
+
         } else {
             print("Warning: Object placement failed.")
         }
@@ -67,7 +73,7 @@ class AlienXUSViewController: UIViewController, ARSessionDelegate {
                 coloredCube.generateCollisionShapes(recursive: true)
 
                 arView.scene.subscribe(to: CollisionEvents.Began.self) { (event) in
-                    print("Houve colisão entra \(event.entityA) e \(event.entityB)")
+                    print("Houve colisão entre \(event.entityA) e \(event.entityB)")
                 }.store(in: &anyCancellables)
 
                 // Attach the cube to the ARAnchor via an AnchorEntity.
@@ -75,6 +81,34 @@ class AlienXUSViewController: UIViewController, ARSessionDelegate {
                 let anchorEntity = AnchorEntity(anchor: anchor)
                 anchorEntity.addChild(coloredCube)
                 arView.scene.addAnchor(anchorEntity)
+
+            } else if anchor.name == Anchor.camera.rawValue {
+                let anchorEntity = AnchorEntity(anchor: anchor)
+//                 potatoAnchor.potato?.components.set(CollisionComponent(shapes: [.generateCapsule(height: 0.15, radius: 0.03)], mode: .trigger, filter: .sensor))
+
+//                arView.scene.subscribe(to: CollisionEvents.Began.self) { (event) in
+//                    print("Colidiu \(event.entityA) com \(event.entityB)")
+//                }.store(in: &collidedObjects)
+
+//                if let potato = (potatoAnchor.potato as? Entity & HasPhysics) {
+//                    potato.physicsBody?.isContinuousCollisionDetectionEnabled = true
+//                }
+
+                let radius: Float = 0.05
+                let bullet = ModelEntity(mesh: MeshResource.generateSphere(
+                    radius: radius),
+                    materials: [SimpleMaterial(color: .black, isMetallic: true)]
+                )
+                
+
+                //Setando a ancora dela
+                anchorEntity.addChild(bullet)
+                bullet.position = [0, 0, -1]
+
+                //Colocando a ancora com a bolinha na cena
+                arView.scene.addAnchor(anchorEntity)
+
+                bullet.addForce(SIMD3(5, 5, 5), relativeTo: )
             }
         }
     }
