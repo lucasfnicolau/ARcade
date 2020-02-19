@@ -27,5 +27,3 @@ func set(text: String,
 
     entity.children[0].children[0].components.set(textModelComponent)
 }
-
-

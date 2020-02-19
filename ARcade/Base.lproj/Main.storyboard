@@ -27,7 +27,7 @@
         <!--AlienXUS View Controller-->
         <scene sceneID="JQo-3c-JiE">
             <objects>
-                <viewController id="ec2-Ng-QhR" customClass="AlienXUSViewController" customModule="ARcade" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlienXUSViewController" id="ec2-Ng-QhR" customClass="AlienXUSViewController" customModule="ARcade" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eR1-EK-u1u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

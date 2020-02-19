@@ -200,14 +200,42 @@
                                           "type" : "custom"
                                         }
                                       },
-                                      "identifier" : "CEB9696B-3F3B-451A-81D6-5226C76D5476",
+                                      "identifier" : "A87F3E0B-BCDA-45D1-BF49-68C3DF756ED6",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "098570D1-B1FF-4B39-9899-C450CE81A157",
+                              "identifier" : "ACAA4473-1DF2-43EA-9D28-DD0B526AC68F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "targetScene" : "F9610871-0955-494F-A5C3-51D1A281BAB3"
+                                        },
+                                        "name" : {
+                                          "type" : "changeScene"
+                                        }
+                                      },
+                                      "identifier" : "C08596D8-6AC3-425C-A6E6-6748200A5A2F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "BC6C9C3D-0E69-4A53-9C98-3EF0FEBBDE60",
                               "isEnabled" : true
                             }
                           ],
@@ -438,14 +466,42 @@
                                           "type" : "custom"
                                         }
                                       },
-                                      "identifier" : "9EF5BFB5-A1E0-45FC-97CA-FD21C06E0059",
+                                      "identifier" : "84079365-D0DC-4B80-A989-962B8F1402C2",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "E4149209-E8C8-4D53-8181-CAA6481DDC91",
+                              "identifier" : "32A4237F-4FAB-44D5-9C98-111A5C1D2CDF",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "targetScene" : "F9610871-0955-494F-A5C3-51D1A281BAB3"
+                                        },
+                                        "name" : {
+                                          "type" : "changeScene"
+                                        }
+                                      },
+                                      "identifier" : "FC5C6421-7BBB-4262-8F56-8D8E1DDC8FB6",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "7427FF22-680A-42A8-9F65-173652ABA5CA",
                               "isEnabled" : true
                             }
                           ],
@@ -1037,6 +1093,13 @@
                             "typeName" : "UUID",
                             "value" : "00DFAF0C-163F-4F21-B5B3-9CA142070402"
                           }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "blueButton"
+                          }
                         ]
                       ]
                     },
@@ -1174,6 +1237,13 @@
                             "typeName" : "UUID",
                             "value" : "7935F42D-E2D0-4A1F-94B5-75D4F9E9F7CE"
                           }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "greenButton"
+                          }
                         ]
                       ]
                     },
@@ -1198,6 +1268,7 @@
                       ]
                     }
                   },
+                  "D10A035B-ED6F-4CC4-BDC7-8E8851B294B0" : null,
                   "D552100A-AC05-412E-BDF5-2EA4A91EE130" : null,
                   "DF3E7805-BF67-478F-802B-BCAF492C7100" : null,
                   "EA8E1F92-FC2C-4F25-BFCD-A2F794E96CE2" : null,
@@ -1279,21 +1350,21 @@
               "title" : "Arcade",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99935930967330933,
-                  3.3527612686157227e-07,
-                  -0.03578910231590271,
+                  0.99984467029571533,
+                  3.350432962179184e-07,
+                  -0.0176229327917099,
                   0,
-                  -0.020797869190573692,
-                  0.81382143497467041,
-                  -0.58074265718460083,
+                  -0.0054004755802452564,
+                  0.95189386606216431,
+                  -0.30638012290000916,
                   0,
-                  0.029125677421689034,
-                  0.58111530542373657,
-                  0.81329983472824097,
+                  0.016774982213973999,
+                  0.3064282238483429,
+                  0.95174586772918701,
                   0,
-                  0.11225903034210205,
-                  1.973440408706665,
-                  2.100074291229248,
+                  0.81477546691894531,
+                  2.1711101531982422,
+                  5.7148113250732422,
                   1
                 ],
                 "sceneTransform" : [
@@ -1507,7 +1578,7 @@
                                         "configuration" : {
                                           "angularCoefficient" : 1,
                                           "animationStyle" : "basic",
-                                          "buildOutAnimationType" : "none",
+                                          "buildOutAnimationType" : "pop",
                                           "distance" : 1,
                                           "duration" : 1,
                                           "fadeOut" : true,
@@ -1516,6 +1587,121 @@
                                           "respectPhysics" : false,
                                           "target" : [
                                             "EA42067F-7630-4185-AFEF-BC160876494F"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "4DB4A002-099D-4C73-81E3-B0E914296F0C",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "F98222FF-8B36-4B82-A10B-385C77D4AB6C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "EA42067F-7630-4185-AFEF-BC160876494F"
+                                          ],
+                                          "userIdentifier" : "realDeath"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "E4408C55-E279-4FAE-99E9-70213DB5698F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "0BA159EC-9101-4780-964A-0458CACC485F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019607901573181,
+                        0.7450980544090271,
+                        0.94901961088180542,
+                        1
+                      ],
+                      "identifier" : "04F26597-7F50-4FEA-8D0E-01B189EAAAC7",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Real Death",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "EA42067F-7630-4185-AFEF-BC160876494F"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "FB2DCA75-4C1B-4783-A5CE-08F76BECCBA7",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                },
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "pop",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "57A48634-0539-41CA-AA9D-7326427E81FB",
+                                            "D0A3A73D-20E5-4C3E-857B-E82AE14F5941",
+                                            "854B0E30-CB80-4ECE-8259-4D4EAD9865E5",
+                                            "7D2BA9E7-DD81-4BC0-8791-3311DEFBC198",
+                                            "6D8AB32A-D828-42F9-A873-8B25DD4BCAA5",
+                                            "3E84FC0E-9E9E-4402-B5EC-8008FB9248FF",
+                                            "23FA819A-9BD1-44A8-8AC9-80121E47F25D"
                                           ]
                                         },
                                         "name" : {
@@ -1534,6 +1720,43 @@
                             }
                           ],
                           "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "854B0E30-CB80-4ECE-8259-4D4EAD9865E5",
+                                            "D0A3A73D-20E5-4C3E-857B-E82AE14F5941",
+                                            "7D2BA9E7-DD81-4BC0-8791-3311DEFBC198",
+                                            "57A48634-0539-41CA-AA9D-7326427E81FB",
+                                            "6D8AB32A-D828-42F9-A873-8B25DD4BCAA5",
+                                            "23FA819A-9BD1-44A8-8AC9-80121E47F25D",
+                                            "3E84FC0E-9E9E-4402-B5EC-8008FB9248FF"
+                                          ],
+                                          "userIdentifier" : "fakesDeath"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "1C08942D-6A1B-4A92-AA4E-8D1BEEC88D2C",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "28BF699D-24C0-4AB0-8EED-E47DFA0190B2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
                         }
                       ],
                       "color" : [
@@ -1546,26 +1769,26 @@
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Behavior 1",
+                      "name" : "Fakes Death",
                       "triggers" : [
                         {
                           "__content" : [
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "collidingObjects" : [
-                                    "0FB77EEF-04EB-4EA1-8E61-CBDCED522D19"
-                                  ],
-                                  "tags" : [
-
-                                  ],
                                   "target" : [
-                                    "EA42067F-7630-4185-AFEF-BC160876494F"
+                                    "57A48634-0539-41CA-AA9D-7326427E81FB",
+                                    "D0A3A73D-20E5-4C3E-857B-E82AE14F5941",
+                                    "854B0E30-CB80-4ECE-8259-4D4EAD9865E5",
+                                    "7D2BA9E7-DD81-4BC0-8791-3311DEFBC198",
+                                    "6D8AB32A-D828-42F9-A873-8B25DD4BCAA5",
+                                    "3E84FC0E-9E9E-4402-B5EC-8008FB9248FF",
+                                    "23FA819A-9BD1-44A8-8AC9-80121E47F25D"
                                   ]
                                 },
-                                "name" : "collision"
+                                "name" : "tapTarget"
                               },
-                              "identifier" : "9E864457-8232-4F78-BF18-F4D88D828789",
+                              "identifier" : "667AD65E-4010-48F1-AF91-7ED0A01F9C19",
                               "isEnabled" : true
                             }
                           ],
@@ -1591,8 +1814,8 @@
                                         "configuration" : {
                                           "force" : [
                                             0,
-                                            6.9444499015808105,
-                                            0
+                                            5.9612054824829102,
+                                            -10.325109481811523
                                           ],
                                           "target" : [
 
@@ -1633,13 +1856,85 @@
                             {
                               "configurationBox" : {
                                 "configuration" : {
+                                  "userIdentifier" : "Shoot"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "EB955520-D71C-42B0-8E87-72050C292AF6",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                },
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "force" : [
+                                            0,
+                                            4.9404168128967285,
+                                            -4.9404163360595703
+                                          ],
+                                          "target" : [
+
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "physics"
+                                        }
+                                      },
+                                      "identifier" : "65211F68-96F6-43FA-9C77-F2D872548BD3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "89C90848-4482-4605-B84B-B653BF9BCF05",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "035C23A1-178E-478B-8D7B-AF8CE71CD9C9",
+                      "isEnabled" : false,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
                                   "target" : [
 
                                   ]
                                 },
                                 "name" : "tapTarget"
                               },
-                              "identifier" : "B6E5F3AA-8C49-4095-8D84-F3FB3DFE0A29",
+                              "identifier" : "FBA1549D-9637-45DE-8393-516919A37135",
                               "isEnabled" : true
                             }
                           ],
@@ -1935,6 +2230,7 @@
                   "41BD7729-F8CD-4F0F-B84A-3D8C2C32CCCC" : null,
                   "52CDF8CC-8773-4931-A6D0-1A4093DB1747" : null,
                   "99D08BA2-F5FF-4194-A148-69A3D7CB45C8" : null,
+                  "373B02A8-6EA7-4C3D-966A-0F2E04032C50" : null,
                   "409A957A-7625-46ED-88DA-F4AAEDC37C5D" : null,
                   "538B5A6D-E65E-4B77-9B85-304E5D3E34A1" : {
                     "overrides" : {
@@ -2904,28 +3200,29 @@
                         1
                       ]
                     }
-                  }
+                  },
+                  "F710A990-6A96-499A-AC63-C325C8FF116F" : null
                 },
                 "factory" : null
               },
               "title" : "Level0",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.04302356019616127,
-                  3.8649886846542358e-07,
-                  -0.99907404184341431,
+                  0.16903737187385559,
+                  3.8743019104003906e-07,
+                  -0.98560959100723267,
                   0,
-                  -0.20920002460479736,
-                  0.97783130407333374,
-                  -0.0090085742995142937,
+                  -0.26427328586578369,
+                  0.96338218450546265,
+                  -0.045323990285396576,
                   0,
-                  0.97692584991455078,
-                  0.209394171833992,
-                  0.04206998273730278,
+                  0.94951885938644409,
+                  0.26813158392906189,
+                  0.16284769773483276,
                   0,
-                  2.7182824611663818,
-                  2.0704853534698486,
-                  -0.51804494857788086,
+                  4.0694522857666016,
+                  2.9840195178985596,
+                  -0.022437185049057007,
                   1
                 ],
                 "sceneTransform" : [

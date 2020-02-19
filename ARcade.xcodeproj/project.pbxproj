@@ -16,8 +16,7 @@
 		B6C5146123F72904009D142C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5146023F72904009D142C /* Helpers.swift */; };
 		B6C5146523F72B1E009D142C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5146423F72B1E009D142C /* Enums.swift */; };
 		B6C5146823F73145009D142C /* PressStart2P-vaV7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C5146723F73145009D142C /* PressStart2P-vaV7.ttf */; };
-		B6DE56CB23FD986400CE59A3 /* AlienXUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE56CA23FD986400CE59A3 /* AlienXUSViewController.swift */; };
-		B6DE56CD23FD99EF00CE59A3 /* GSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE56CC23FD99EF00CE59A3 /* GSController.swift */; };
+		B6DE56CD23FD99EF00CE59A3 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE56CC23FD99EF00CE59A3 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +31,7 @@
 		B6C5146023F72904009D142C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		B6C5146423F72B1E009D142C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		B6C5146723F73145009D142C /* PressStart2P-vaV7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-vaV7.ttf"; sourceTree = "<group>"; };
-		B6DE56CA23FD986400CE59A3 /* AlienXUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlienXUSViewController.swift; sourceTree = "<group>"; };
-		B6DE56CC23FD99EF00CE59A3 /* GSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSController.swift; sourceTree = "<group>"; };
+		B6DE56CC23FD99EF00CE59A3 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +66,8 @@
 			children = (
 				B6C5145F23F728E7009D142C /* Helpers */,
 				B678A87A23F5CA6A0019C038 /* AppDelegate.swift */,
-				B6DE56CC23FD99EF00CE59A3 /* GSController.swift */,
+				B6DE56CC23FD99EF00CE59A3 /* GameState.swift */,
 				B678A87C23F5CA6A0019C038 /* ArcadeViewController.swift */,
-				B6DE56CA23FD986400CE59A3 /* AlienXUSViewController.swift */,
 				B678A87E23F5CA6A0019C038 /* Experience.rcproject */,
 				B678A88023F5CA6A0019C038 /* Main.storyboard */,
 				B678A88323F5CA6E0019C038 /* Assets.xcassets */,
@@ -161,11 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6DE56CD23FD99EF00CE59A3 /* GSController.swift in Sources */,
+				B6DE56CD23FD99EF00CE59A3 /* GameState.swift in Sources */,
 				B678A87D23F5CA6A0019C038 /* ArcadeViewController.swift in Sources */,
 				B678A87B23F5CA6A0019C038 /* AppDelegate.swift in Sources */,
 				B6C5146523F72B1E009D142C /* Enums.swift in Sources */,
-				B6DE56CB23FD986400CE59A3 /* AlienXUSViewController.swift in Sources */,
 				B678A87F23F5CA6A0019C038 /* Experience.rcproject in Sources */,
 				B6C5146123F72904009D142C /* Helpers.swift in Sources */,
 			);
