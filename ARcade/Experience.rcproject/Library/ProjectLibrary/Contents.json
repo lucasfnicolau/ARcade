@@ -8,5 +8,20 @@
     "libraryIdentifier" : "4a044ea49c11ddbe08fb4dfa5cb554b7",
     "format" : "model",
     "displayName" : "alien0.usdz"
+  },
+  {
+    "libraryIdentifier" : "c323e963b0d33561012ffb2e531732e1",
+    "format" : "model",
+    "displayName" : "Arcade_Only.usdz"
+  },
+  {
+    "libraryIdentifier" : "de7796d15ad588700100aa1c0204b959",
+    "format" : "model",
+    "displayName" : "Arcade_Only.usdz"
+  },
+  {
+    "libraryIdentifier" : "3cf31bd693b79e480c549637c281945f",
+    "format" : "model",
+    "displayName" : "Joystick.usdz"
   }
 ]

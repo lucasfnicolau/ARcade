@@ -8,6 +8,9 @@
 import Foundation
 
 enum Font: String {
-    case silkScreen = "Silkscreen Expanded"
     case pressStart = "Press Start 2P"
+}
+
+enum Anchor: String {
+    case placingObject
 }
