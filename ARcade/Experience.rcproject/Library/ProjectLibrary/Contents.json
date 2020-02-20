@@ -63,5 +63,10 @@
     "libraryIdentifier" : "27dd37279f863560bcc6304e38d47d80",
     "format" : "model",
     "displayName" : "alien2.usdz"
+  },
+  {
+    "libraryIdentifier" : "6389686dd250f34e00fcc0badc25aeb7",
+    "format" : "model",
+    "displayName" : "Earth.usdz"
   }
 ]
