@@ -48,8 +48,8 @@ class ArcadeViewController: UIViewController, ARSessionDelegate {
             currentState = .alienXUSLevel0
 //            levelsAnchors[0].bullet?.scale = SIMD3(0, 0, 0)
             set(text: "Score: 0", for: levelsAnchors[0].scoreLabel)
-            levelsAnchors[0].actions.fakesDeath.onAction = fakesDeath(_:)
-            levelsAnchors[0].actions.realDeath.onAction = realDeath(_:)
+//            levelsAnchors[0].actions.fakesDeath.onAction = fakesDeath(_:)
+//            levelsAnchors[0].actions.realDeath.onAction = realDeath(_:)
         default:
             break
         }
