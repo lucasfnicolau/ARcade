@@ -63,5 +63,25 @@
     "libraryIdentifier" : "27dd37279f863560bcc6304e38d47d80",
     "format" : "model",
     "displayName" : "alien2.usdz"
+  },
+  {
+    "libraryIdentifier" : "6389686dd250f34e00fcc0badc25aeb7",
+    "format" : "model",
+    "displayName" : "Earth.usdz"
+  },
+  {
+    "libraryIdentifier" : "d173c660761f5410cc2a5ff94523dcea",
+    "format" : "audio",
+    "displayName" : "Electronic Fantasy (online-audio-converter.com).mp3"
+  },
+  {
+    "libraryIdentifier" : "decf6b3a71c5a7b93097e92d3cf1ba78",
+    "format" : "audio",
+    "displayName" : "melodyloops-preview-space-epic-2m30s.mp3"
+  },
+  {
+    "libraryIdentifier" : "4b143149727c90c5eb5f1b1081590031",
+    "format" : "audio",
+    "displayName" : "3. Probe Away.mp3"
   }
 ]

@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,48 +10,17 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ArcadeViewController" customModule="ARcade" customModuleProvider="target" sceneMemberID="viewController">
-                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ARcadeView" customModule="ARcade" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </arView>
                     <connections>
                         <outlet property="arView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
-                        <segue destination="ec2-Ng-QhR" kind="presentation" identifier="startAliensXUS" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Tl9-Q4-B5K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-161" y="100"/>
-        </scene>
-        <!--AlienXUS View Controller-->
-        <scene sceneID="JQo-3c-JiE">
-            <objects>
-                <viewController storyboardIdentifier="AlienXUSViewController" id="ec2-Ng-QhR" customClass="AlienXUSViewController" customModule="ARcade" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eR1-EK-u1u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEO-LT-10g">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </arView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="oEO-LT-10g" firstAttribute="top" secondItem="eR1-EK-u1u" secondAttribute="top" id="Ncs-2w-rM4"/>
-                            <constraint firstItem="oEO-LT-10g" firstAttribute="trailing" secondItem="tTr-Cw-YKw" secondAttribute="trailing" id="QDu-4H-R3k"/>
-                            <constraint firstItem="oEO-LT-10g" firstAttribute="leading" secondItem="tTr-Cw-YKw" secondAttribute="leading" id="dAh-rd-pXD"/>
-                            <constraint firstAttribute="bottom" secondItem="oEO-LT-10g" secondAttribute="bottom" id="r41-BL-hpg"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="tTr-Cw-YKw"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Mvn-AB-YQU"/>
-                    <connections>
-                        <outlet property="arView" destination="oEO-LT-10g" id="gKg-UG-YAg"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="i1n-3L-4fk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="586.95652173913049" y="99.776785714285708"/>
         </scene>
     </scenes>
 </document>
