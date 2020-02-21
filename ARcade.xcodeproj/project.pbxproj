@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66C229023FF2CB200B55454 /* Coaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C228F23FF2CB200B55454 /* Coaching.swift */; };
+		B66C229223FF2D3E00B55454 /* ARcadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C229123FF2D3E00B55454 /* ARcadeView.swift */; };
 		B678A87B23F5CA6A0019C038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678A87A23F5CA6A0019C038 /* AppDelegate.swift */; };
 		B678A87D23F5CA6A0019C038 /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678A87C23F5CA6A0019C038 /* ArcadeViewController.swift */; };
 		B678A87F23F5CA6A0019C038 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B678A87E23F5CA6A0019C038 /* Experience.rcproject */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B66C228F23FF2CB200B55454 /* Coaching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coaching.swift; sourceTree = "<group>"; };
+		B66C229123FF2D3E00B55454 /* ARcadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARcadeView.swift; sourceTree = "<group>"; };
 		B678A87723F5CA6A0019C038 /* ARcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B678A87A23F5CA6A0019C038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B678A87C23F5CA6A0019C038 /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				B678A87A23F5CA6A0019C038 /* AppDelegate.swift */,
 				B6DE56CC23FD99EF00CE59A3 /* GameState.swift */,
 				B678A87C23F5CA6A0019C038 /* ArcadeViewController.swift */,
+				B66C228F23FF2CB200B55454 /* Coaching.swift */,
+				B66C229123FF2D3E00B55454 /* ARcadeView.swift */,
 				B678A87E23F5CA6A0019C038 /* Experience.rcproject */,
 				B678A88023F5CA6A0019C038 /* Main.storyboard */,
 				B678A88323F5CA6E0019C038 /* Assets.xcassets */,
@@ -160,7 +166,9 @@
 			files = (
 				B6DE56CD23FD99EF00CE59A3 /* GameState.swift in Sources */,
 				B678A87D23F5CA6A0019C038 /* ArcadeViewController.swift in Sources */,
+				B66C229223FF2D3E00B55454 /* ARcadeView.swift in Sources */,
 				B678A87B23F5CA6A0019C038 /* AppDelegate.swift in Sources */,
+				B66C229023FF2CB200B55454 /* Coaching.swift in Sources */,
 				B6C5146523F72B1E009D142C /* Enums.swift in Sources */,
 				B678A87F23F5CA6A0019C038 /* Experience.rcproject in Sources */,
 				B6C5146123F72904009D142C /* Helpers.swift in Sources */,
